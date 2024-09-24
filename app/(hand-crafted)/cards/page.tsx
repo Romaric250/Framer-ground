@@ -19,10 +19,12 @@ import Experience from "@/components/cards/experience";
 import Nothing from "@/components/cards/nothing";
 import OverviewStackeds from "@/components/cards/overview-stacked";
 import Pill from "@/components/cards/pill";
+import BoxCarousel from "@/components/carousel/box-carousel";
 
 const Cards = () => {
   return (
     <div className="min-h-screen flex-col center overflow-x-hidden">
+      <BoxCarousel />
       <CardOne />
       <CheckCard />
       <Booking />
